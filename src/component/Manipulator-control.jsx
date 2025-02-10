@@ -9,7 +9,7 @@ function Control_Manipulator() {
   const [J3, setJ3] = useState(0);
   const [J4, setJ4] = useState(0);
   const [J5, setJ5] = useState(0);
-  const [J6, setJ6] = useState(43);
+  const [J6, setJ6] = useState(0);
   const [speed,setspd]= useState(30)
   const [ButtonStatus,SetButtonStatus] = useState(false)
   const handleSliderChange = (setter) => (event, newValue) => {
