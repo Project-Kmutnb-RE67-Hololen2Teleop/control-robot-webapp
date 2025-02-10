@@ -1,0 +1,26 @@
+/* General header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f4f4f4;
+  }
+  
+  /* Button container */
+  header div {
+    display: flex;
+    gap: 15px;
+  }
+  
+  /* Button styling */
+  div button {
+    cursor: pointer;
+    border-radius: 15px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  
+    div button:hover {
+        transform: scale(1.1);
+    }
+  
